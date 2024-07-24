@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio website complete</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Akash Gogineni</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#What I Do" class="nav__link">What I Do</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Akash </span><br> Data Explorer </h1>
+                <a href="https://drive.google.com/file/d/1yJYU7bI9sk4QViAlrmjPrmVUlYVGwup8/view?usp=sharing" class="button" target="_blank">View My Resume</a> <!-- Resume link -->
+            </div>
+        
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/akash-gogineni-5a149721b/" class="home__social-icon" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/AkashGogineni18" class="home__social-icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="Profile Image">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About me</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I am Akash Gogineni</h2>
+                    <p class="about__text">From founding a Company at the age of 20 to working on groundbreaking projects, my journey has been fueled by an unwavering passion for Artificial Intelligence and Machine Learning. This dedication has led me to develop strong expertise in Data Science, Generative AI, and Power BI. My Entrepreneurial experience has given me a deep understanding of company operations and the importance of innovative solutions in driving success. <br><br>
+
+                        I am currently pursuing a Master’s in Computer Science from Georgia State University. My academic pursuits are complemented by practical experience.                   
+                        
+                        With a strong foundation in both theory and application, I am committed to pushing the boundaries of technology and making impactful contributions to the field of Data science.</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== What I Do =====-->
+        <section class="skills section" id="skills">
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="section-title">What I Do</h2>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__point">•&nbsp;</span>
+                            <span class="skills__name">Gen AI </span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__point">•&nbsp;</span>
+
+                            <span class="skills__name">Data Science</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__point">•&nbsp;</span>
+                            <span class="skills__name">Cloud Infrastructure - AWS, Azure and Docker</span>
+                                  <i class="fa-solid fa-cloud"></i>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__point">•&nbsp;</span>
+                            <span class="skills__name">Web Development</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <span class="skills__point">•&nbsp;</span>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+        
+
+            <!--===== projects =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+                
+                <article class="work__item">
+                    <div class="work__img-container">
+                        <a href="#" class="work__img-link">
+                            <img src="assets/img/work1.jpg" alt="Project 1" class="work__img">
+                        </a>
+                    </div>
+                    <div class="work__text">
+                        <h3 class="work__title">Advanced Brain Tumor Detection Using Deep Learning</h3>
+                        <p class="work__description">Developed an Advanced brain tumor detection system using VGG19 with Data augmentation, Unfreezing, and Fine-tuning techniques. The model is deployed as a Flask web app for real-time MRI scan analysis, enhancing diagnostic efficiency.</p>
+                        <div class="work__buttons">
+                            <a href="https://github.com/AkashGogineni18/Advanced_Brain_Tumor_Detection.git" class="button button--work">Source Code</a>
+                            <a href="https://www.linkedin.com/posts/akash-gogineni-5a149721b_deeplearning-braintumordetection-transferlearning-activity-7218832061728530432-RMX8?utm_source=share&utm_medium=member_desktop" class="button button--work">See Live</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work__item">
+                    <div class="work__img-container">
+                        <a href="#" class="work__img-link">
+                            <img src="assets/img/worka2.jpg" alt="Project 1" class="work__img">
+                        </a>
+                    </div>
+                    <div class="work__text">
+                        <h3 class="work__title">Advanced Predictive Modeling For Urban Property Analysis</h3>
+                        <p class="work__description">This Project involves Hyperparameter optimization, Feature engineering, and Cross-validation techniques. Developed a web app to address property analysis challenges and deployed the predictive model on Azure for scalability and accessibility</p>
+                        <div class="work__buttons">
+                            <a href="https://github.com/AkashGogineni18/Advanced-Predictive-Modeling-For-Urban-Property-Analysis.git" class="button button--work">Source Code</a>
+                            <a href="https://www.linkedin.com/posts/akash-gogineni-5a149721b_datascience-predictivemodeling-summerproject-activity-7204369182165975041-DEQa?utm_source=share&utm_medium=member_desktop" class="button button--work">See Live</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work__item">
+                    <div class="work__img-container">
+                        <a href="#" class="work__img-link">
+                            <img src="assets/img/work2N.jpg" alt="Project 2" class="work__img">
+                        </a>
+                    </div>
+                    <div class="work__text">
+                        <h3 class="work__title">Data Visualization- Netflix Dashboard</h3>
+                        <p class="work__description">Developed an interactive dashboard that provides actionable insights and enhances strategic decision making in the entertainment industry. Key features include genre breakdowns, global content analysis, ratings, and historical release trends.</p>
+                        <div class="work__buttons">
+                            <a href="https://github.com/AkashGogineni18/Netflix_Dashboard_PowerBI.git" class="button button--work">Source Code</a>
+                            <a href="https://www.linkedin.com/posts/akash-gogineni-5a149721b_netflix-powerbi-dataanalytics-activity-7208283276220801024-aOa0?utm_source=share&utm_medium=member_desktop" class="button button--work">See Live</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="work__item">
+                    <div class="work__img-container">
+                        <a href="#" class="work__img-link">
+                            <img src="assets/img/workt.jpg" alt="Project 3" class="work__img">
+                        </a>
+                    </div>
+                    <div class="work__text">
+                        <h3 class="work__title">Text to Image Generation using GenAI</h3>
+                        <p class="work__description">The project uses Generative AI to transform text descriptions into images with Stability AI and Hugging Face. It explores NLP and Generative AI to accurately interpret and visualize text input.</p>
+                        <div class="work__buttons">
+                            <a href="https://github.com/yourusername/project3" class="button button--work">Source Code</a>
+                            <a href="https://yourliveproject3.com" class="button button--work">See Live</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work__item">
+                    <div class="work__img-container">
+                        <a href="#" class="work__img-link">
+                            <img src="assets/img/workp.jpg" alt="Project 4" class="work__img">
+                        </a>
+                    </div>
+                    <div class="work__text">
+                        <h3 class="work__title">Path Planning for Autonomous Vehicles</h3>
+                        <p class="work__description">Developed a path planning technique for self-driving cars using algorithms like Dijkstra, A*, and RRT, enhancing the vehicle's ability to predict accurate paths, ensuring reliable navigation in diverse driving conditions. The system effectively handles both static and dynamic obstacles, providing safe and efficient travel. </p>
+                        <div class="work__buttons">
+                            <a href="https://drive.google.com/file/d/16Puw-ejvBoYqH65EDQSAy7kd8XR-C8Hl/view?usp=sharing" class="button button--work">Source Code</a>
+                            <a href="https://drive.google.com/file/d/1p4KPhSlI7PegbaQwWxaWWZ6dld4WIad3/view?usp=sharing" class="button button--work">See Project </a>
+                          
+                            
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="work__item">
+                    <div class="work__img-container">
+                        <a href="#" class="work__img-link">
+                            <img src="assets/img/workc.jpg" alt="Project 4" class="work__img">
+                        </a>
+                    </div>
+                    <div class="work__text">
+                        <h3 class="work__title">Recommendation Systems for Renting Construction Equipments</h3>
+                        <p class="work__description">Collected vast amounts of equipment rental data directly from various equipment providers and Organised the data using Data preprocessing techniques and Developed a website that uses ML algorithm to predict the Price of Equipment Rents </p>
+                        <div class="work__buttons">
+                            <a href="https://drive.google.com/file/d/1VmuJt2_sajM8mSEmnYe4g_oKzr3nvbCe/view?usp=sharing" class="button button--work">Source Code</a>
+                            <a href="https://drive.google.com/file/d/1XtngUH1aNecSUiiAQvGmOHSTEEmanb2N/view?usp=sharing" class="button button--work">See Project</a>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+        
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+            
+                <div class="contact__container bd-grid">
+                    <div class="contact__details">
+                        <h3>Let's Build the Future Together!</h3>
+                        <p><strong>Mail:</strong> akashgogineni18@gmail.com</p>
+                        <p><strong>Phone:</strong> +1 (404)-423-6846</p>
+                    </div>
+                </div>
+            </section>
+            
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Akash Gogineni</p>
+            <div class="footer__social">
+
+            </div>
+            <p class="footer__copy"> </p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html> 
