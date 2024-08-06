@@ -425,12 +425,14 @@ img {
 
 /* ===== MEDIA QUERIES=====*/
 .home {
-  display: flex; /* Use flexbox for horizontal layout */
-  flex-direction: row; /* Align items horizontally */
-  align-items: center; /* Vertically align items */
-  justify-content: space-between; /* Space between items */
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: row; /* Align items in a row */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Add space between items */
   padding: 2rem; /* Adjust padding as needed */
 }
+
+/* Home text styling */
 .home__data {
   flex: 1; /* Allow the text to take up available space */
   margin-right: 1rem; /* Add space between text and image */
@@ -452,19 +454,16 @@ img {
 }
 @media screen and (max-width: 480px) {
   .home {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text alignment */
+    flex-direction: row; /* Keep items side-by-side */
+    padding: 1rem; /* Adjust padding for smaller screens */
   }
 
   .home__data {
-    margin-right: 0; /* Remove margin when stacked vertically */
-    margin-bottom: 1rem; /* Add space below text when stacked vertically */
+    margin-right: 1rem; /* Keep space between text and image */
   }
 
   .home__img {
-    width: 150px; /* Adjust image size for smaller screens */
-    margin: 0; /* Remove margins */
+    width: 200px; /* Keep the same image size */
   }
 }
 @media screen and (min-width: 576px) {
