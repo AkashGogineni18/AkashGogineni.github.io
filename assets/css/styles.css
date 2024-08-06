@@ -432,6 +432,14 @@ img {
     width: 200px;
   }
 }
+@media screen and (max-width: 480px) {
+  .home__img {
+    width: 250px;
+    bottom: 10%;
+    right: 10%;
+    position: absolute;
+  }
+}
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
