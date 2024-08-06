@@ -424,46 +424,12 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-.home {
-  display: flex; /* Use flexbox for horizontal alignment */
-  flex-direction: row; /* Align items in a row */
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Add space between items */
-  padding: 2rem; /* Adjust padding as needed */
-}
-
-/* Home text styling */
-.home__data {
-  flex: 1; /* Allow the text to take up available space */
-  margin-right: 1rem; /* Add space between text and image */
-}
-
-/* Home image styling */
-.home__img {
-  width: 200px; /* Adjust width for the image */
-  max-width: 100%; /* Ensure image scales down */
-  height: auto; /* Maintain aspect ratio */
-}
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
   }
   .home__img {
     width: 200px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .home {
-    flex-direction: row; /* Keep items side-by-side */
-    padding: 1rem; /* Adjust padding for smaller screens */
-  }
-
-  .home__data {
-    margin-right: 1rem; /* Keep space between text and image */
-  }
-
-  .home__img {
-    width: 200px; /* Keep the same image size */
   }
 }
 @media screen and (min-width: 576px) {
@@ -574,4 +540,4 @@ img {
   .home__img {
     width: 450px;
   }
-}
+} 
