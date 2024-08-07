@@ -475,28 +475,32 @@ img {
 }
 /* Mobile screen adjustments */
 /* Mobile screen adjustments */
-@media screen and (max-width: 768px) {
 
+  /* Mobile screen adjustments */
+@media screen and (max-width: 768px) {
   .home {
     display: flex;
-    flex-direction: row; /* Position text and image side-by-side */
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
-    justify-content: space-between; /* Space between text and image */
     padding: 1rem;
-    flex-wrap: wrap; /* Allow wrapping if needed */
   }
 
   .home__text {
-    width: 80%; /* Adjust width as needed */
-    text-align: left; /* Align text to the left */
-    margin-right: 1rem; /* Space between text and image */
-    order: 1; /* Position text to the left */
+    width: 100%; /* Full width for text */
+    text-align: center; /* Center text */
+    margin-bottom: 1rem; /* Space between text and image */
   }
 
   .home__img {
-    width: 35%; /* Adjust width as needed */
-    max-width: 150px; /* Ensure the image doesn’t become too large */
-    order: 2; /* Position image to the right */
+    width: 80%; /* Adjust image width */
+    max-width: 200px; /* Ensure the image doesn’t become too large */
+    margin-bottom: 1rem; /* Space between image and button */
+  }
+
+  .home__resume-button {
+    width: 100%; /* Full width for the resume button */
+    text-align: center; /* Center the button */
+    margin-bottom: 1rem; /* Space between button and icons */
   }
 
   .home__icons {
@@ -504,8 +508,6 @@ img {
     gap: 1rem; /* Space between icons */
     justify-content: center; /* Center icons horizontally */
     width: 100%; /* Full width for proper positioning */
-    margin-top: 1rem; /* Space above icons */
-    order: 3; /* Position icons below text */
   }
 }
 
