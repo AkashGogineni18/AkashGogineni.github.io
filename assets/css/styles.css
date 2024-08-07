@@ -478,6 +478,7 @@ img {
 
   /* Mobile screen adjustments */
 /* Mobile screen adjustments */
+/* Mobile screen adjustments */
 @media screen and (max-width: 768px) {
   .home {
     display: flex;
@@ -497,8 +498,7 @@ img {
     max-width: 200px; /* Ensure the image doesn’t become too large */
     margin-bottom: 1rem; /* Space between image and icons */
     display: block; /* Ensure image behaves as a block element */
-    margin-left: auto;
-    margin-right: auto; /* Center the image */
+    margin: 0 auto; /* Center the image */
   }
 
   .home__resume-button {
@@ -509,12 +509,15 @@ img {
 
   .home__icons {
     display: flex;
+    flex-direction: row; /* Ensure icons are in a row */
     gap: 1rem; /* Space between icons */
     justify-content: center; /* Center icons horizontally */
     width: 100%; /* Full width for proper positioning */
     margin-top: 1rem; /* Space above icons */
+    margin-bottom: 1rem; /* Space below icons */
   }
 }
+
 
 
 @media screen and (min-width: 768px) {
