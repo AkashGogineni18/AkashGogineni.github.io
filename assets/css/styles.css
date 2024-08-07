@@ -476,7 +476,7 @@ img {
 /* Mobile screen adjustments */
 /* Mobile screen adjustments */
 @media screen and (max-width: 768px) {
-  
+
   .home {
     display: flex;
     flex-direction: row; /* Position text and image side-by-side */
@@ -487,7 +487,7 @@ img {
   }
 
   .home__text {
-    width: 60%; /* Adjust width as needed */
+    width: 80%; /* Adjust width as needed */
     text-align: left; /* Align text to the left */
     margin-right: 1rem; /* Space between text and image */
     order: 1; /* Position text to the left */
