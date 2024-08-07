@@ -473,6 +473,45 @@ img {
     justify-items: center;
   }
 }
+/* Mobile screen adjustments */
+@media screen and (max-width: 768px) {
+  .home {
+    position: relative; /* Ensure the container is positioned relatively */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem; /* Adjust padding as needed */
+    height: 100vh; /* Make the container height equal to viewport height */
+  }
+
+  .home__img {
+    position: absolute; /* Position the image absolutely */
+    top: 1rem; /* Adjust top position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    width: 80%; /* Adjust width as needed */
+    max-width: 300px; /* Ensure the image doesn’t become too large */
+  }
+
+  .home__text {
+    position: absolute; /* Position text absolutely */
+    bottom: 4rem; /* Adjust bottom position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    text-align: center; /* Center text */
+    width: 80%; /* Adjust width as needed */
+  }
+
+  .home__icons {
+    position: absolute; /* Position icons absolutely */
+    bottom: 1rem; /* Adjust bottom position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    display: flex;
+    gap: 1rem; /* Adjust spacing between icons */
+  }
+}
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
