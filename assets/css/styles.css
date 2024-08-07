@@ -430,18 +430,21 @@ img {
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 480px) {
   .home {
-    display: flex;
-    flex-direction: row; /* Make text and image side by side */
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row; /* Ensure side-by-side layout */
     padding: 2rem 1rem; /* Adjust padding for mobile view */
+    position: relative; /* Set position relative for absolute positioning */
   }
-  .home__text, .home__img {
-    flex: 1; /* Ensure both take up equal space */
+  
+  .home__data {
+    flex: 1; /* Allow text to take available space */
+    margin-right: 220px; /* Add margin to prevent text from colliding with the image */
   }
-  .home__img img {
-    width: 100%; /* Ensure the image scales properly */
-    max-width: 200px; /* Adjust this as necessary */
+  
+  .home__img {
+    position: absolute; /* Absolute positioning for image */
+    right: 0; /* Position image on the right */
+    width: 200px; /* Maintain image width */
+    max-width: 100%; /* Ensure image does not exceed container width */
   }
 }
 @media screen and (min-width: 576px) {
