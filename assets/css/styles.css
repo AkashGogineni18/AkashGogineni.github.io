@@ -424,22 +424,18 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 992px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .home {
-    display: flex;
-    flex-direction: row; /* Make text and image side by side */
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 1rem; /* Adjust padding for mobile view */
+    padding: 10rem 0 2rem;
   }
-  .home__text, .home__img {
-    flex: 1; /* Ensure both take up equal space */
+  .home__img {
+    width: 150px;
   }
-  .home__img img {
-    width: 100%; /* Ensure the image scales properly */
-    max-width: 200px; /* Adjust this as necessary */
-  }
-}
+} 
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
