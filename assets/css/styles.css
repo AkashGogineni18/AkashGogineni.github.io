@@ -182,14 +182,9 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
-  display: flex; /* Ensure flex layout for both mobile and desktop */
-  flex-direction: row; /* Keep side-by-side layout by default */
-  justify-content: space-between;
-  align-items: center;
 }
 .home__data {
   align-self: center;
-  flex: 1; /* Allow text to take available space */
 }
 .home__title {
   font-size: var(--big-font-size);
@@ -201,7 +196,6 @@ img {
 .home__social {
   display: flex;
   flex-direction: column;
-  margin-right: 220px; /* Ensure space for the image on mobile */
 }
 .home__social-icon {
   width: max-content;
@@ -214,7 +208,8 @@ img {
 }
 .home__img {
   position: absolute;
-  
+  right: 0;
+  bottom: 0;
   width: 200px;
 }
 .home__blob {
@@ -429,29 +424,14 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   .home {
-    flex-direction: column; /* Stack elements vertically for better fit on mobile */
-    padding: 2rem 1rem; /* Adjust padding for mobile view */
+    row-gap: 2rem;
   }
-  
-  .home__data {
-    margin-bottom: 220px; /* Ensure space at the bottom for the image */
-  }
-  
-  .home__social {
-    margin: 0; /* Remove margin to prevent unnecessary space */
-  }
-
   .home__img {
-    position: absolute; /* Absolute positioning for image */
-    top: 0; /* Position image at the top */
-    right: 0; /* Position image on the right */
-    width: 200px; /* Maintain image width */
-    max-width: 100%; /* Ensure image does not exceed container width */
+    width: 200px;
   }
 }
-
 @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
