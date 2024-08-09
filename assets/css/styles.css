@@ -424,6 +424,9 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
+
+
+/* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
@@ -431,8 +434,8 @@ img {
   .home__img {
     width: 200px;
   }
-}
-@media screen and (min-width: 576px) {
+ }
+ @media screen and (min-width: 576px) {
   .home {
     padding: 4rem 0 2rem;
   }
@@ -472,27 +475,30 @@ img {
   .contact__container {
     justify-items: center;
   }
-}
-/* Mobile screen adjustments */
-/* Mobile screen adjustments */
-
+ }
+ /* Mobile screen adjustments */
+ /* Mobile screen adjustments */
+ 
+ 
   /* Mobile screen adjustments */
-/* Mobile screen adjustments */
-/* Mobile screen adjustments */
-/* Mobile screen adjustments */
-@media screen and (max-width: 768px) {
+ /* Mobile screen adjustments */
+ /* Mobile screen adjustments */
+ /* Mobile screen adjustments */
+ @media screen and (max-width: 768px) {
   .home {
     padding: 1rem;
     position: relative; /* Ensure positioning context for child elements */
   }
-
+ 
+ 
   .home__text {
     width: 100%; /* Full width for text */
     text-align: center; /* Center text */
     margin-bottom: 1rem; /* Space between text and image */
     position: relative; /* Position relative to parent */
   }
-
+ 
+ 
   .home__img {
     width: 80%; /* Adjust image width */
     max-width: 200px; /* Ensure the image doesn’t become too large */
@@ -501,29 +507,35 @@ img {
     position: relative; /* Position relative to parent */
     margin-bottom: 1rem; /* Space between image and icons */
   }
-
+ 
+ 
   .home__resume-button {
     width: 100%; /* Full width for the resume button */
     text-align: center; /* Center the button */
     margin: 1rem 0; /* Space between button and icons */
     position: relative; /* Position relative to parent */
   }
-
+ 
+ 
   .home__icons {
     width: 100%; /* Full width for proper positioning */
     text-align: center; /* Center icons horizontally */
     margin-top: 1rem; /* Space above icons */
     position: relative; /* Position relative to parent */
   }
-
+ 
+ 
   .home__icons img {
     margin: 0.5rem; /* Space between individual icons */
   }
-}
-
-
-
-@media screen and (min-width: 768px) {
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ @media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -578,8 +590,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
-}
-@media screen and (min-width: 992px) {
+ }
+ @media screen and (min-width: 992px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
@@ -590,4 +602,5 @@ img {
   .home__img {
     width: 450px;
   }
-} 
+ }
+ 
