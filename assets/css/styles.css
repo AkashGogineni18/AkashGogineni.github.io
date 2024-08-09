@@ -480,9 +480,46 @@ img {
 /* Mobile screen adjustments */
 /* Mobile screen adjustments */
 /* Mobile screen adjustments */
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 1rem;
+    position: relative; /* Ensure positioning context for child elements */
+  }
 
+  .home__text {
+    width: 100%; /* Full width for text */
+    text-align: center; /* Center text */
+    margin-bottom: 1rem; /* Space between text and image */
+    position: relative; /* Position relative to parent */
+  }
 
+  .home__img {
+    width: 80%; /* Adjust image width */
+    max-width: 200px; /* Ensure the image doesn’t become too large */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure image behaves as a block element */
+    position: relative; /* Position relative to parent */
+    margin-bottom: 1rem; /* Space between image and icons */
+  }
 
+  .home__resume-button {
+    width: 100%; /* Full width for the resume button */
+    text-align: center; /* Center the button */
+    margin: 1rem 0; /* Space between button and icons */
+    position: relative; /* Position relative to parent */
+  }
+
+  .home__icons {
+    width: 100%; /* Full width for proper positioning */
+    text-align: center; /* Center icons horizontally */
+    margin-top: 1rem; /* Space above icons */
+    position: relative; /* Position relative to parent */
+  }
+
+  .home__icons img {
+    margin: 0.5rem; /* Space between individual icons */
+  }
+}
 
 
 
