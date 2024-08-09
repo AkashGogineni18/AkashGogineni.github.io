@@ -517,27 +517,28 @@ img {
   }
  
   .home__social {
-    position: relative;      /* Ensure the container is positioned relatively */
-    height: 50px;            /* Ensure the container has enough height for the icons */
+    position: relative; /* Position the container relatively */
+    width: 150px; /* Adjust this width as needed to accommodate both icons */
+    height: 50px; /* Ensure the container height is sufficient */
 }
 
 .home__social-icon {
-    position: absolute;      /* Position the icons absolutely within the container */
-    top: 50%;                /* Center the icons vertically */
-    transform: translateY(-50%); /* Center the icons vertically */
+    position: absolute; /* Position icons absolutely within the container */
+    top: 50%;           /* Center icons vertically */
+    transform: translateY(-50%); /* Center vertically */
 }
 
 #linkedin {
-    left: 0;                 /* Position LinkedIn icon on the left edge */
+    left: 0;            /* Align LinkedIn icon to the left edge */
 }
 
 #github {
-    left: 60px;              /* Position GitHub icon 60px to the right of LinkedIn */
+    left: 60px;         /* Position GitHub icon 60px to the right of LinkedIn */
 }
 
 .home__social-icon i {
-    font-size: 2rem;         /* Size of the icons */
-    color: #000;             /* Color of the icons */
+    font-size: 2rem;    /* Size of the icons */
+    color: #000;        /* Color of the icons */
 }
 
  
