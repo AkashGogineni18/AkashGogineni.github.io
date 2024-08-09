@@ -494,7 +494,7 @@ img {
   }
 
   .home__img {
-    width: 120%; /* Adjust image width */
+    width: 100%; /* Adjust image width */
     max-width: 300px; /* Ensure the image doesn’t become too large */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure image behaves as a block element */
@@ -527,7 +527,7 @@ img {
   flex-direction: row !important;
 }
 
-
+}
 
 @media screen and (min-width: 768px) {
   body {
