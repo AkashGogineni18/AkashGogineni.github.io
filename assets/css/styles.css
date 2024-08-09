@@ -510,14 +510,22 @@ img {
     position: relative; /* Position relative to parent */
   }
 
-  .home__icons {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 1rem !important;
+  .home__social {
+    display: flex;              /* Enable flexbox for the container */
+    flex-direction: row;        /* Ensure the icons are in a row */
+    justify-content: center;    /* Center the icons within the container */
+    align-items: center;        /* Center align the icons vertically */
+    gap: 1rem;                  /* Space between the icons */
 }
 
+.home__social-icon {
+    font-size: 2rem;            /* Adjust the size of the icons */
+    color: #000;                /* Set the color for the icons */
+}
+.home__social {
+  display: flex !important;
+  flex-direction: row !important;
+}
 
 
 
