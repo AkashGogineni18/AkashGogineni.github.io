@@ -487,7 +487,7 @@ img {
   }
 
   .home__text {
-    width: 100%; /* Full width for text */
+    width: 150%; /* Full width for text */
     text-align: center; /* Center text */
     margin-bottom: 1rem; /* Space between text and image */
     position: relative; /* Position relative to parent */
@@ -511,11 +511,13 @@ img {
 
   .home__icons {
     width: 100%; /* Full width for proper positioning */
-    text-align: center; /* Center icons horizontally */
-    margin-top: 1rem; /* Space above icons */
     display: flex; /* Enables flexbox layout */
     justify-content: center; /* Align icons to the center horizontally */
-    gap: 1rem; /* Space between icons (optional) */
+    align-items: center; /* Center icons vertically */
+    gap: 1rem; /* Space between icons */
+    margin-top: 1rem; /* Space above icons */
+    text-align: center; /* Center icons horizontally if necessary */
+    position: relative; /* Position relative to parent */
 }
 
 
