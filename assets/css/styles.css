@@ -510,23 +510,23 @@ img {
   }
 
   .home__icons {
-    display: flex;           /* Enables flexbox layout */
-    flex-direction: row;     /* Aligns items horizontally (default behavior of flexbox) */
-    justify-content: center; /* Centers icons horizontally */
-    align-items: center;     /* Centers icons vertically */
-    gap: 1rem;               /* Space between icons */
-    width: 100%;             /* Full width for proper positioning */
-    margin-top: 1rem;        /* Space above icons */
-    text-align: center;      /* Aligns text inside each icon (if any) */
-    position: relative;      /* Position relative to parent */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .home__icons i {
-    display: inline-block;  /* Ensure icons behave as inline-block elements */
-    width: 50px;            /* Set a fixed width for the icons */
-    height: 50px;           /* Set a fixed height for the icons */
-    background-color: gray; /* Temporary background color to visualize the icons */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: gray; /* This is just a placeholder color */
 }
+
 
 
 
