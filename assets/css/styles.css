@@ -516,23 +516,19 @@ img {
     position: relative; /* Position relative to parent */
   }
  
-  .home__social {
-    position: fixed; /* Fix the position relative to the viewport */
-    bottom: 1rem;   /* Adjust distance from the bottom */
-    left: 50%;      /* Center horizontally */
-    transform: translateX(-50%); /* Center the container */
-    display: inline-block; /* Ensure container fits content */
-    background-color: transparent; /* Optional: Set a background color if needed */
-    padding: 0; /* Remove any padding */
-}
-
-.home__social-icon {
-    font-size: 2rem; /* Set the icon size */
-    color: #000;     /* Set the icon color */
-    margin: 0 1rem;  /* Space between icons */
-    display: inline-block; /* Ensure icons stay in a row */
-}
-
+ 
+  .home__icons {
+    width: 100%; /* Full width for proper positioning */
+    text-align: center; /* Center icons horizontally */
+    margin-top: 1rem; /* Space above icons */
+    position: relative; /* Position relative to parent */
+  }
+ 
+ 
+  .home__icons img {
+    margin: 0.5rem; /* Space between individual icons */
+  }
+ }
  
  
  
