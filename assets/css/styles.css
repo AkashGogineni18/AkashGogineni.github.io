@@ -499,7 +499,7 @@ img {
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure image behaves as a block element */
     position: relative; /* Position relative to parent */
-    margin-bottom: 1rem; /* Space between image and icons */
+    margin-bottom: 0.5rem; /* Space between image and icons */
   }
 
   .home__resume-button {
@@ -510,14 +510,22 @@ img {
   }
 
   .home__icons {
-    width: 100%; /* Full width for proper positioning */
-    display: flex; /* Enables flexbox layout */
-    justify-content: center; /* Align icons to the center horizontally */
-    align-items: center; /* Center icons vertically */
-    gap: 1rem; /* Space between icons */
-    margin-top: 1rem; /* Space above icons */
-    text-align: center; /* Center icons horizontally if necessary */
-    position: relative; /* Position relative to parent */
+    display: flex;           /* Enables flexbox layout */
+    flex-direction: row;     /* Aligns items horizontally (default behavior of flexbox) */
+    justify-content: center; /* Centers icons horizontally */
+    align-items: center;     /* Centers icons vertically */
+    gap: 1rem;               /* Space between icons */
+    width: 100%;             /* Full width for proper positioning */
+    margin-top: 1rem;        /* Space above icons */
+    text-align: center;      /* Aligns text inside each icon (if any) */
+    position: relative;      /* Position relative to parent */
+}
+
+.home__icons i {
+    display: inline-block;  /* Ensure icons behave as inline-block elements */
+    width: 50px;            /* Set a fixed width for the icons */
+    height: 50px;           /* Set a fixed height for the icons */
+    background-color: gray; /* Temporary background color to visualize the icons */
 }
 
 
