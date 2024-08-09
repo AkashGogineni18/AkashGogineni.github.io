@@ -494,7 +494,7 @@ img {
   }
 
   .home__img {
-    width: 80%; /* Adjust image width */
+    width: 100%; /* Adjust image width */
     max-width: 200px; /* Ensure the image doesn’t become too large */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure image behaves as a block element */
@@ -513,8 +513,13 @@ img {
     width: 100%; /* Full width for proper positioning */
     text-align: center; /* Center icons horizontally */
     margin-top: 1rem; /* Space above icons */
-    position: relative; /* Position relative to parent */
-  }
+}
+
+.home__icons > * {
+    display: inline-block; /* Display icons side by side */
+    margin: 0 0.5rem; /* Space between icons */
+}
+
 
   .home__icons img {
     margin: 0.5rem; /* Space between individual icons */
