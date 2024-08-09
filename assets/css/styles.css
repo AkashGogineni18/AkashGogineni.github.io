@@ -494,7 +494,7 @@ img {
   }
 
   .home__img {
-    width: 100%; /* Adjust image width */
+    width: 150%; /* Adjust image width */
     max-width: 300px; /* Ensure the image doesn’t become too large */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure image behaves as a block element */
@@ -511,16 +511,13 @@ img {
   }
 
   .home__icons {
-    width: 100%; /* Full width for proper positioning */
-    text-align: center; /* Center icons horizontally */
-    margin-top: 1rem; /* Space above icons */
-    position: relative; /* Position relative to parent */
-  }
-
-  .home__icons img {
-    margin: 0.5rem; /* Space between individual icons */
-  }
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
 }
+
 
 
 
