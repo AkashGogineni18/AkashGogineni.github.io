@@ -494,12 +494,12 @@ img {
   }
 
   .home__img {
-    width: 150%; /* Adjust image width */
+    width: 120%; /* Adjust image width */
     max-width: 300px; /* Ensure the image doesn’t become too large */
     margin: 0 auto; /* Center the image */
     display: block; /* Ensure image behaves as a block element */
     position: relative; /* Position relative to parent */
-    margin-bottom: 0.5rem; /* Space between image and icons */
+    margin-bottom: 0.3rem; /* Space between image and icons */
   }
 
 
