@@ -515,22 +515,20 @@ img {
     margin: 1rem 0; /* Space between button and icons */
     position: relative; /* Position relative to parent */
   }
-  
+ 
+ 
   .home__icons {
-    position: fixed; /* Fixes the icons' position relative to the viewport */
-    bottom: 1rem; /* Distance from the bottom of the viewport */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center the container */
-    display: flex; /* Align icons horizontally */
-    gap: 1rem; /* Space between icons */
-    z-index: 1000; /* Ensure icons stay on top of other content */
-}
-
-.home__icons img {
-    width: 40px; /* Set a fixed width for the icons */
-    height: 40px; /* Set a fixed height for the icons */
-}
-
+    width: 100%; /* Full width for proper positioning */
+    text-align: center; /* Center icons horizontally */
+    margin-top: 1rem; /* Space above icons */
+    position: relative; /* Position relative to parent */
+  }
+ 
+ 
+  .home__icons img {
+    margin: 0.5rem; /* Space between individual icons */
+  }
+ }
  
  
  
